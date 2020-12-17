@@ -14,7 +14,6 @@ public class AnalyticsCounter {
 		ISymptomReader iSymptomReader = new ReadSymptomDataFromFile("symptoms.txt"); 
 		List<String>listOfSymptoms = iSymptomReader.getSymptoms();
 
-		Collections.sort(listOfSymptoms);
 		//Counter
 		try {
 			for (int i=0; i<listOfSymptoms.size(); i++) {		
